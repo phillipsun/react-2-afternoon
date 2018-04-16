@@ -32,7 +32,7 @@ class EmployeeEditor extends Component {
     // use bracket notiation to access 'prop' on employeeCopy object and update its value to 'val'
     employeeCopy[prop] = val;
 
-
+    // update employee property in our state by setting it to employeeCopy
     this.setState({
       employee: employeeCopy
     });
